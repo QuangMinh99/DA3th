@@ -1,0 +1,24 @@
+.home-introduce{
+	padding: 3rem 0;
+	background: #f9f9f9;
+	.introduce-desc{
+		font-size: 15px;
+		letter-spacing: 0.25px;
+		p{
+			line-height: 24px;
+		}
+	}
+	.introduce-image{
+		img{
+			margin: 0 auto;
+			border: #2a7f49 3px double;
+			border-radius: 20px 20px 0;
+			width: 100%;
+			height: 100%;
+			-o-object-fit: cover;
+			object-fit: cover;
+			-o-object-position: center;
+			object-position: center;
+		}
+	}
+}
